@@ -98,16 +98,25 @@ def homeuser():
 def utecespacios1():
     return render_template('utecespacios1.html')
 
+@app.route('/utecespacios2')
+@login_required
+def utecespacios2():
+    return render_template('utecespacios2.html')
+
 @app.route('/utecEstadisticas')
 @login_required
 def utecEstadisticas():
     return render_template('utecEstadisticas.html')
 
-
-@app.route('/homevisitante')
+@app.route('/funcion1')
 @login_required
-def homevisitante():
-    return render_template('homevisitante.html')
+def funcion1():
+    return render_template('utecEstRap.html')
+
+@app.route('/funcion2')
+@login_required
+def funcion2():
+    return render_template('notificaciones.html')
 
 
 @app.route('/protected')
