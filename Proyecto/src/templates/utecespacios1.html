@@ -34,7 +34,8 @@
         </nav>
         <section class="page-section about-heading">
             <div class="container">
-                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{{ url_for('static', filename='assets/img/espacio_estrap/sotano1.jpeg')}}" alt="..." />
+                <img class="fishes" src="{{ url_for('static', filename='assets/E1.jpg')}}" alt="..." />
+                <img class="fish" src="{{ url_for('static', filename='assets/Imagen2.png')}}" alt="..." />
                 <div class="about-heading-content">
                     <div class="row">
                         <div class="col-xl-9 col-lg-10 mx-auto">
@@ -46,7 +47,7 @@
         <!-- Call to Action-->
         <section class="content-section bg-primary text-white">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Espacios Libres: 2</h2>
+                <h2 class="mb-4">Espacios Libres: {{free}}</h2>
                 <a class="btn btn-xl btn-light me-12" href="utecespacios2.html">Piso 2</a>
             </div>
         </section>

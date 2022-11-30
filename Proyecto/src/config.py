@@ -7,7 +7,7 @@ class DevelopmentConfig(Config):
     MYSQL_HOST = 'localhost'
     MYSQL_USER = 'root'
     MYSQL_PASSWORD = ''
-    MYSQL_DB = 'flask_login'
+    MYSQL_DB = 'administrador_db'
 
 
 config = {

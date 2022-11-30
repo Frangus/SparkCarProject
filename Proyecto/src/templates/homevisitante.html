@@ -22,9 +22,9 @@
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand"><a href="#page-top">SparkCar</a></li>
-                <li class="sidebar-nav-item"><a href="#EspaciosLibres">Espacios Libres</a></li>
-                <li class="sidebar-nav-item"><a href="#EstacionamientoRapido">Estacionamiento Rápido</a></li>
-                <li class="sidebar-nav-item"><a href="loginvisita.html">Logout</a></li>
+                <li class="sidebar-nav-item"><a href="/utecespacios1">Espacios Libres</a></li>
+                <li class="sidebar-nav-item"><a href="/utecEstRap">Estacionamiento Rápido</a></li>
+                <li class="sidebar-nav-item"><a href="{{ url_for('logout') }}">Logout</a></li>
             </ul>
         </nav>
         <!-- Portfolio Grid-->
@@ -37,8 +37,8 @@
                     <div class="col-lg-12 col-sm-12 mb-12">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item" id="EspaciosLibres">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#EspaciosLibres">
-                                <h2 class="mb-4"> <a href="visitaespacios1.html"> Espacios Libres</h2>
+                            <a class="portfolio-link" data-bs-toggle="modal" href="/utecespacios1">
+                                <h2 class="mb-4"> <a href="/utecespacios1"> Espacios Libres</h2>
                                 <img class="img-fluid text-center" src="{{ url_for('static', filename='assets/img/menu/pexels-pixabay-257416.jpg')}}" alt="..." /></a>
                             </a>
                         </div>
@@ -47,7 +47,7 @@
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item" id="EstacionamientoRapido">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#EstacionamientoRapido">
-                                <h2 class="mb-4"> <a href="visitanteEstRap.html"> Estacionamiento Rápido</h2>
+                                <h2 class="mb-4"> <a href="/utecEstRap"> Estacionamiento Rápido</h2>
                                 <img class="img-fluid" src="{{ url_for('static', filename='assets/img/menu//pexels-garvin-st-villier-4037254.jpg')}}" alt="..." /></a>
                             </a>
                         </div>
